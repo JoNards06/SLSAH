@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+}
+.mynav{
+overflow: hidden;
+background-color:blue;
+}
+.mynav a{
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.mynav a:hover{
+  background-color: blue;
+  color:white;
+}
+.logo{
+  float: left;
+  width: 50px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}

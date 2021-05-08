@@ -1,0 +1,92 @@
+body{
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+  background-image: url("SLSAH.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mynav{
+overflow: hidden;
+background-color:lightblue;
+}
+.mynav a{
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.mynav a:hover{
+  background-color:red;
+  color:yellow;
+}
+.logo{
+  float: left;
+  width: 50px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+}
+.fb{
+  float: left;
+  border-style: double;
+}
+.fbicon{
+width: 10em;
+}
+.gmail{
+  border-style: double;
+  float: right;
+}
+.column{
+  width: 35em;
+  float: center;
+  
+}
+.events{
+  text-align: center;
+ 
+}
+.event1{
+  
+  text-align: center;
+}
+.event2{
+
+  text-align: center;
+}
+.event5{
+  text-align: center;
+}
+.event6{
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+    
+  }
+  @media only screen and (max-width: 200px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+}
+@media only screen and (max-width: 100px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+  }
+}

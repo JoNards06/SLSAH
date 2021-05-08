@@ -1,0 +1,100 @@
+body{
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+  background-image: url("SLSAH.jpg");
+  background-size: cover;
+  background-repeat: no-repeat ;  
+}
+.mynav{
+overflow: hidden;
+background-color:lightblue;
+}
+.mynav a{
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.mynav a:hover{
+  background-color:red;
+  color:yellow;
+}
+.logo{
+  float: left;
+  width: 50px;
+}
+.phil{
+border-style: double;
+width: 20em;
+float: right;
+background-image: url("green.jfif");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.vision{
+  border-style: double;
+  width: 10em;
+  float: left;
+  background-image: url("green.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mission{
+  border-style: double;
+  width: 20em;
+  float: right;
+  background-image: url("green.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.objectives{
+  border-style: double;
+  width: 24em;
+  float: left;
+  background-image: url("green.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.core{
+  border-style: double;
+  width: 20em;
+  float: right;
+  text-align: center;
+  background-image: url("green.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+    
+  }
+  @media only screen and (max-width: 200px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+}
+@media only screen and (max-width: 100px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+  }
+}

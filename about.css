@@ -1,0 +1,98 @@
+
+body{
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+  background-image: url("church.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0%;
+}
+.mynav{
+overflow: hidden;
+background-color:lightblue;
+}
+.mynav a{
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.mynav a:hover{
+  background-color:red;
+  color:yellow;
+}
+.logo{
+  float: left;
+  width: 50px;
+}
+.principal{
+  align-items: center;
+  text-align: center;
+ 
+}
+.principal1{
+width: 300px ;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+}
+.fb{
+  float: left;
+}
+.container{
+  border: solid;
+  float: right;
+  text-align: center;
+}
+.open{
+  border: solid;
+  float: right;
+  background-image: url("hours.png");
+  width: 20em;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+.border2{
+  border: solid;
+  font-size: medium;
+  width: 70em;
+  background-image: url("paper.jfif");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-size: cover;
+}
+.pictures{
+   float: right;
+   border-style: solid;
+}
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+      
+    }
+    @media only screen and (max-width: 200px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+  }
+  @media only screen and (max-width: 100px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+    }
+  }
+

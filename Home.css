@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-items: center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  background-image: url("icp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mynav{
+overflow: hidden;
+background-color:lightblue;
+}
+.mynav a{
+  float: left;
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.mynav a:hover{
+  background-color:red;
+  color:yellow;
+}
+.logo{
+  float: left;
+  width: 50px;
+}
+.hymn{
+  float: right;
+  border: double;
+  width: fit-content;
+  background-image: url("blue.jpg");
+  color: yellow;
+}
+.principal{
+  border: solid;
+  width: max-content;
+}
+.gif{
+  align-items: center;
+  text-align: center;
+  width: 80em; 
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+
+}
+.fb{
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .gif
+  [class*="col-"] {
+    width: 100%;
+    
+  }
+  @media only screen and (max-width: 56px) {
+    .gif
+    [class*="col-"] {
+      width: 100%;
+}
+@media only screen and (max-width: 100px) {
+  .gif{
+    background-color: skyblue;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+  }
+}
